@@ -1,0 +1,18 @@
+{
+  "funds": [
+    {"id": 1, "name": "Vanguard 500 Index Fund", "type": "Stock"},
+    {"id": 2, "name": "Fidelity Growth Fund", "type": "Stock"},
+    {"id": 3, "name": "T.Rowe Price Bond Fund", "type": "Bond"}
+  ],
+  "contributionTypes": [
+    {"id": 1, "name": "Traditional 401(k)"},
+    {"id": 2, "name": "Roth 401(k)"},
+    {"id": 3, "name": "Employer Match"}
+  ],
+  "balances": [
+    {"fundId": 1, "contributionTypeId": 1, "units": 105.234, "nav": 250.75, "balance": 26386.42},
+    {"fundId": 1, "contributionTypeId": 2, "units": 45.123, "nav": 250.75, "balance": 11312.10},
+    {"fundId": 2, "contributionTypeId": 1, "units": 89.456, "nav": 175.50, "balance": 15699.53},
+    {"fundId": 3, "contributionTypeId": 3, "units": 67.890, "nav": 95.25, "balance": 6466.52}
+  ]
+}
